@@ -1,0 +1,38 @@
+[
+    
+    {
+        "usuario": "user1",
+
+        "contrasenia": "1234",
+
+        "mail": "mail1@gmail.com",
+
+        "carritoDeCompras": 0, 
+
+        "listaDeRemerasPorComprar": []
+    },
+
+    {
+        "usuario": "user2",
+
+        "contrasenia": "5678",
+
+        "mail": "mail2@gmail.com",
+
+        "carritoDeCompras": 0, 
+
+        "listaDeRemerasPorComprar": []
+    },
+
+    {
+        "usuario": "user3",
+
+        "contrasenia": "9101",
+
+        "mail": "mail3@gmail.com",
+
+        "carritoDeCompras": 0, 
+
+        "listaDeRemerasPorComprar": []
+    }
+]

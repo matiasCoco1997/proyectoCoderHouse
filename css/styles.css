@@ -1,0 +1,679 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+img{
+    width: 100%;
+}
+
+.container-general img{
+    max-height: 362.34px;
+}
+
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+h1{
+    width: 20%;
+    text-align: center;
+    background-color: rgb(0, 205, 61);
+    border-radius: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.logo{
+    width: 10%;
+    background-color: rgb(0, 205, 61);
+    border-radius: 50%;
+}
+
+#nav-botonera{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 205, 61);
+}
+
+#nav-botonera a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    cursor: pointer;
+    width: 300px;
+    font-weight: bold;
+    color: black;
+}
+
+#nav-botonera a:hover{
+    background-color: rgb(57, 231, 109);
+}
+
+
+main{
+    background-image: url(../images/fondo.jpg);
+    min-height: 1005px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.container-page{
+    width: 100%;
+    display: grid;
+    padding: 50px;
+    grid-template-areas:   
+                            'botones productos productos productos'
+                            'botones productos productos productos'
+                            'botones productos productos productos'
+                            'botones productos productos productos'
+                            ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* *********************  FORMULARIO DE INGRESO  *********************/
+
+.containerForm{
+    display: flex;
+    flex-wrap: wrap;
+    height: 805px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.containerForm h2{
+    color:rgb(0,205,61);
+    font-size: 25px;
+    width: 80%;
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.815);
+    border: 5px solid rgb(0, 205, 61);
+    border-radius: 60px;
+}
+
+
+.formulario-de-ingreso{
+    padding: 30px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 300px;
+    border: 5px solid rgb(0, 205, 61);
+    border-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.ingresoDeDatos{
+    width: 100%;
+    height: 45%;
+}
+
+
+.ingresoDeDatos label{
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 205, 61);
+}
+
+
+.ingresoDeDatos input{
+    color: rgb(0, 205, 61);
+    width: 100%;
+    height: 45%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom:1px solid rgb(0, 205, 61); 
+    outline: none; 
+}
+
+
+.ingresoDeDatos input::placeholder{
+
+    color: rgba(0, 205, 62, 0.678);
+    font-weight: bold;
+
+}
+
+
+.ingresoDeDatos input:focus{
+    border: none;
+    border-bottom:3px solid rgb(0, 205, 61) ;
+    color: rgb(0, 205, 61); 
+}
+
+
+.formulario-de-ingreso button{
+    width: 20%;
+    height: 15%;
+    border:3px solid rgb(15, 165, 60);
+    background-color: rgb(15, 165, 60);
+    
+    margin: auto;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario-de-ingreso button:hover{
+
+    border:3px solid rgb(0, 205, 61);
+    background-color: rgb(0, 205, 61);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************  PRODUCTOS/REMERAS PARA COMPRAR  *********************** */
+
+.container-general{
+    grid-area: productos;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-areas:    'boca river independiente'
+                            'racing sanLorenzo velez'
+                            'colon newells rosario'
+                            ;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+}
+
+.item-box{
+    background-color: rgba(0, 0, 0, 0.795);
+    border: 5px rgb(0, 205, 61) solid;
+    border-radius: 30px;
+    margin: 1.5em;
+}
+
+.item-box h3{
+    color: rgb(0, 205, 61);
+}
+
+.item-box p{
+    color: rgb(0, 205, 61);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item-box:hover{
+    border: 5px rgb(0, 255, 76) solid;
+}
+
+#itemUno{
+    grid-area: boca;
+}
+
+#itemDos{
+    grid-area: river;
+}
+
+#itemTres{
+    grid-area: independiente;
+}
+
+#itemCuatro{
+    grid-area: racing;
+}
+
+#itemCinco{
+    grid-area: sanLorenzo;
+}
+
+#itemSeis{
+    grid-area: velez;
+}
+
+#itemSiete{
+    grid-area: colon;
+}
+
+#itemOcho{
+    grid-area: newells;
+}
+
+#itemNueve{
+    grid-area: rosario;
+}
+
+.buttonBuy{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 205, 61);
+    border: 1px rgb(0, 205, 61) solid;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.buttonBuy:hover{
+    background-color: rgb(0, 255, 76);
+    border: 1px rgb(0, 255, 76) solid;
+}
+
+.item-box div{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* *********************** CONTAINER BOTONES  *********************** */
+
+
+.container-botones{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px rgb(0, 205, 61) solid;
+    border-radius: 30px;
+    padding: 30px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.titulo-container-botones{
+    padding: 10px;
+    border: 3px rgb(0, 205, 61) solid;
+    width: 80%;
+    border-radius: 30px;
+    color: rgb(51, 253, 0);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* *********************** CARRITO  *********************** */
+.container-carrito{
+    grid-area: botones;
+    padding: 5px;
+    width: 420px;
+}
+
+.carrito{
+    color: rgb(51, 253, 0);
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 1em;
+    border: 3px rgb(0, 205, 61) solid;
+
+}
+
+#compras-realizadas{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#button-mostrar-carrito{
+    font-size: 20px;
+    font-weight: bold;
+    width: 410px;
+    height: 2em;
+    border: 3px solid rgb(0, 205, 61);
+    background-color: rgb(0, 205, 61);
+    cursor: pointer;
+}
+
+#button-mostrar-carrito:hover{
+    border: 3px solid rgb(0, 255, 76);
+    background-color: rgb(0, 255, 76);
+}
+
+#button-eliminar-productos{
+
+    background-color: red;
+    border: 1px solid red;
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+.compras-realizadas li{
+    display: flex;
+}
+
+
+.btnEliminar{
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 20px;
+    margin-bottom: 0.1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+h4{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/* ***********************  METODOS DE PAGO  *********************** */
+
+.container-metodos-de-pago{
+    grid-area: botones;
+    padding: 5px;
+    width: 420px;
+}
+
+aside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5em;
+    background-color: rgba(0, 0, 0, 0.89);
+    border: 3px rgb(0, 205, 61) solid;
+}
+
+aside h3{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1em;
+    padding: 0.3em;
+    text-align: center;
+    color: rgb(0, 205, 61);
+    border-radius: 10px;
+}
+
+aside div{
+    text-align: center;
+    background-color: #fff;
+    border: 3px rgb(51, 253, 0) solid;
+    border-radius: 10px;
+    width:50%;
+    margin: 10px;
+}
+
+aside p{
+    font-weight: bold;
+}
+
+aside button{
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+}
+
+aside div:hover{
+    border: 3px rgb(0, 255, 76) solid;
+}
+
+
+#button-metodos-de-pago{
+    font-size: 20px;
+    font-weight: bold;
+    width: 410px;
+    height: 2em;
+    border: 3px solid rgb(0, 205, 61);
+    background-color: rgb(0, 205, 61);
+    cursor: pointer;
+}
+
+#button-metodos-de-pago:hover{
+    border: 3px solid rgb(0, 255, 76);
+    background-color: rgb(0, 255, 76);
+}
+
+
+
+
+
+
+
+/* ***********************  DATOS DE LA CUENTA  *********************** */
+.container-datos-de-la-cuenta{
+    grid-area: botones;
+    padding: 5px;
+    width: 420px;
+}
+
+#button-mostrar-datos{
+    font-size: 20px;
+    font-weight: bold;
+    width: 410px;
+    height: 2em;
+    border: 3px solid rgb(0, 205, 61);
+    background-color: rgb(0, 205, 61);
+    cursor: pointer;
+}
+
+#button-mostrar-datos:hover{
+    border: 3px solid rgb(0, 255, 76);
+    background-color: rgb(0, 255, 76);
+}
+
+.datosPersonales{  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.89);
+    border: 3px rgb(0, 205, 61) solid;
+    color: #fff;
+    padding: 1em;
+}
+
+.datosPersonales h3{
+    color: rgb(0, 205, 61);
+    margin-top: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.datosPersonales p{
+    color: rgb(0, 205, 61);
+    padding-bottom: 2em;
+    padding-top: 1em;
+    width: 100%;
+}
+
+#desloguear-la-cuenta{
+
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************  UBICACION  *********************** */
+
+.container-ubicacion{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor-map{
+    width: 60%;
+    height: 700px;
+    padding: 20px;
+    border: 8px rgb(0, 205, 61) solid;
+    border-radius: 30px;
+    background-color:rgba(0, 0, 0, 0.815);
+}
+
+.contenedor-map iframe{
+    height: 100%;
+    width: 100%;   
+    border-radius: 10px;
+}
+
+.contenedor-texto-ubicacion{
+    width: 20%;
+    background-color:rgba(0, 0, 0, 0.815);
+    border: 8px rgb(0, 205, 61) solid;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-texto-ubicacion h2{
+    background-color: rgb(0, 205, 61);
+    text-align: center;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-ubicacion{
+    background-color: rgb(0, 205, 61);
+    width: 80%;
+    height: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.texto-ubicacion p{
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ***********************  NOSOTROS  *********************** */
+
+.container-nosotros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen-nosotros{
+    width: 55%;
+    padding: 30px;
+    border: solid 6px rgb(0, 205, 61);
+    border-radius: 30px;
+    background-color:rgba(0, 0, 0, 0.89);
+    max-height: 630px;
+    
+}
+
+.imagen-nosotros img{
+    width: 100%;
+    border: solid 6px rgb(0, 205, 61);
+    border-radius: 30px; 
+    max-height: 550px;
+}
+
+.texto-nosotros{
+    padding: 30px;
+    color: white;
+    border: solid 6px rgb(0, 205, 61);
+    width: 25%;
+    height: 315px;
+    border-radius: 30px;
+    background-color:rgba(0, 0, 0, 0.89);
+}
+
+.texto-nosotros h2{
+    text-align: center;
+}
+
+.texto-nosotros p{
+    margin-top: 20px;
+}

@@ -1,0 +1,109 @@
+[
+    {
+        "nombre": "Boca Juniors",
+
+        "precio": 15500,
+
+        "id": "1",
+
+        "imgDir": "images/remera-boca-juniors.png",
+
+        "altImg": "BOCA-JUNIORS"
+    },
+
+    {
+        "nombre": "River Plate",
+
+        "precio": 9000,
+
+        "id": "2",
+
+        "imgDir": "images/remera-river-plate.png",
+
+        "altImg": "RIVER-PLATE"
+    },
+
+    {
+        "nombre": "Independiente",
+
+        "precio": 8000,
+
+        "id": "3",
+
+        "imgDir": "images/remera-independiente.png",
+
+        "altImg": "INDEPENDIENTE"
+    },
+ 
+    {
+        "nombre": "Racing",
+
+        "precio": 6300,
+
+        "id": "4",
+
+        "imgDir": "images/remera-racing.png",
+
+        "altImg": "RACING"
+    },
+
+    {
+        "nombre": "San Lorenzo",
+
+        "precio": 8000,
+
+        "id": "5",
+
+        "imgDir": "images/remera-san-lorenzo.png",
+
+        "altImg":" SAN-LORENZO"
+    },
+
+    {
+        "nombre": "Velez",
+
+        "precio": 10000,
+
+        "id": "6",
+
+        "imgDir": "images/remera-velez.png",
+
+        "altImg": "VELEZ"
+    },
+
+    {
+        "nombre": "Colon",
+
+        "precio": 8000,
+
+        "id": "7",
+
+        "imgDir": "images/remera-colon.png",
+
+        "altImg": "COLON"
+    },
+
+    {
+        "nombre": "Newells Old Boys",
+
+        "precio": 9500,
+
+        "id": "8",
+
+        "imgDir": "images/remera-newells.png",
+
+        "altImg": "NEWELLS-OLD-BOYS"
+    }, 
+
+    {
+        "nombre": "Rosario Central",
+
+        "precio": 8500,
+
+        "id": "9",
+
+        "imgDir": "images/remera-rosario-central.png",
+
+        "altImg": "ROSARIO-CENTRAL"
+    }
+]
